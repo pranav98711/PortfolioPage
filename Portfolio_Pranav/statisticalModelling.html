@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Statistical Modelling Projects</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Pranav Sorte</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="index.html#hamburger-nav" onclick="toggleMenu()">Home</a></li>
+          <li><a href="index.html#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="index.html#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="index.html#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Pranav Sorte</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    
+    
+    </section>
+    
+    <section id="projects">
+      <p class="section__text__p1">Browse My</p>
+      <h1 class="title">Statistical Modelling Projects</h1>
+      <div class="experience-details-container">
+        
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <h2 class="experience-sub-title project-title">A/B Testing - Best Ads Platform</h2>
+            <div class="article-container">
+              <img class="article-container-img"
+                style="width: 300px; height: 200px;"
+                src="./assets/googleVsFacebook.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            
+              <ul>
+                <li> Performed T-test to validate conversion rate differences b/w ad platforms, enabling 20% ad spend reallocation</li>
+                <li>Analyzed click-through rates (CTR), conversion rates, & cost-per-conversion (CPC) for both platforms</li>
+                <li>Developed regression model to predict Facebook ad conversions from clicks, achieving an R² score of 76.35%</li>
+                
+              </ul>
+              
+            </div>
+            
+            
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/pranav98711/A-B-Test-Facebook-vs.-AdWords-Ad-Performance'"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <h2 class="experience-sub-title project-title">Covid Analysis Using R</h2>
+          <div class="article-container">
+            <img class="article-container-img"
+              style="width: 300px; height: 200px;"
+              src="./assets/covid.jpg"
+              alt="Project 1"
+              class="project-img"
+            />
+          
+            <ul>
+              <li> Performed Welch two sample t-test analysis indicating a strong age-COVID-19 mortality, with p-values <= 0.05</li>
+              <li> Applied same t-test to confirm 99\% confidence: Men have higher COVID-19 mortality risk than women</li>
+              
+            </ul>
+            
+          </div>
+          
+          
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/pranav98711/Covid-Analysis-Using-R'"
+            >
+              Github
+            </button>
+          </div>
+        </div>
+      </div>
+
+      
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:pranav98711@gmail.com">pranav98711@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/pranav-narendra-sorte-7b38721b4/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p>Copyright &#169; 2024 Pranav Sorte. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
